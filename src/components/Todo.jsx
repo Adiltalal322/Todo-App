@@ -70,7 +70,7 @@ function Todo({
           <textarea
             value={tempDescription}
             onChange={(e) => setTempDescription(e.target.value)}
-            className="w-full p-2 border rounded"
+            className="w-full p-2 border rounded text-black"
           />
           <button
             onClick={handleDescriptionSave}
